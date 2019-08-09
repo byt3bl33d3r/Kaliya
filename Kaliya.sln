@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kaliya", "Kaliya\Kaliya.csproj", "{CE6ED7BD-8C27-4A3C-BB77-A9BE0AE7362C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoC", "PoC\PoC.csproj", "{38FCB2F9-4ECF-49AE-B27A-2D0FA8D16C54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE6ED7BD-8C27-4A3C-BB77-A9BE0AE7362C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE6ED7BD-8C27-4A3C-BB77-A9BE0AE7362C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE6ED7BD-8C27-4A3C-BB77-A9BE0AE7362C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE6ED7BD-8C27-4A3C-BB77-A9BE0AE7362C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38FCB2F9-4ECF-49AE-B27A-2D0FA8D16C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38FCB2F9-4ECF-49AE-B27A-2D0FA8D16C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38FCB2F9-4ECF-49AE-B27A-2D0FA8D16C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38FCB2F9-4ECF-49AE-B27A-2D0FA8D16C54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

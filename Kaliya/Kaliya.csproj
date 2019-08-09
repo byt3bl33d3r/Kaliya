@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Boo.Lang, Version=2.0.9.5, Culture=neutral, PublicKeyToken=32c39770e9a21a67">
+        <HintPath>Resources\Boo.Lang.dll</HintPath>
+      </Reference>
+      <Reference Include="Boo.Lang.Compiler, Version=2.0.9.5, Culture=neutral, PublicKeyToken=32c39770e9a21a67">
+        <HintPath>Resources\Boo.Lang.Compiler.dll</HintPath>
+      </Reference>
+      <Reference Include="Boo.Lang.Interpreter, Version=2.0.9.5, Culture=neutral, PublicKeyToken=32c39770e9a21a67">
+        <HintPath>Resources\Boo.Lang.Interpreter.dll</HintPath>
+      </Reference>
+      <Reference Include="Boo.Lang.Parser, Version=2.0.9.5, Culture=neutral, PublicKeyToken=32c39770e9a21a67">
+        <HintPath>Resources\Boo.Lang.Parser.dll</HintPath>
+      </Reference>
+      <Reference Include="Waher.Security, Version=1.0.2.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Resources\Waher.Security.dll</HintPath>
+      </Reference>
+      <Reference Include="Waher.Security.EllipticCurves, Version=1.0.4.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>Resources\Waher.Security.EllipticCurves.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
