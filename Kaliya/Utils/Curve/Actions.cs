@@ -31,5 +31,4 @@ namespace Kaliya.Utils.Curve
             return deserializedKeyCoords;
         }
     }
-  
 }

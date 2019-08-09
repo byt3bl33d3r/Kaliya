@@ -19,7 +19,7 @@ namespace Kaliya.Engine
             compiler.Parameters.References.Add(compiler.Parameters.LoadAssembly("System.Web.Extensions", true));
 
             var context = compiler.Run();
-            
+
             if (context.GeneratedAssembly == null)
             {
 #if DEBUG
@@ -35,8 +35,7 @@ namespace Kaliya.Engine
             Console.WriteLine("[+] Compilation Successful!");
             Console.WriteLine("[*] Executing");
 #endif
-            context.GeneratedAssembly.EntryPoint.Invoke(null, new object[] { new[] { guid, url } });
-            
+            context.GeneratedAssembly.EntryPoint.Invoke(null, new object[] {new[] {guid, url}});
         }
     }
 }

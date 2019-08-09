@@ -30,7 +30,7 @@ namespace Kaliya
             var guid = Guid.NewGuid();
             var baseUrl = new Uri(args[0]);
             var url = new Uri(new Uri(args[0]), guid.ToString());
-            
+
 #if DEBUG
             Console.WriteLine("[+] URL: {0}", url);
 #endif

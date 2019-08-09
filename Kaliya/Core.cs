@@ -25,7 +25,7 @@ namespace Kaliya
         private static byte[] GetSharedKey(Uri uri)
         {
             var curve = new NistP521();
-            
+
             var coords = new Coordinates()
             {
                 X = curve.PublicKey.X.ToString(),
@@ -38,7 +38,7 @@ namespace Kaliya
 
             var remoteCoords = Actions.ParseJson((response));
             var remotePoint = new PointOnCurve(BigInteger.Parse(remoteCoords.X), BigInteger.Parse(remoteCoords.Y));
-            
+
             return curve.GetSharedKey(remotePoint, HashFunction.SHA256);
         }
     }
